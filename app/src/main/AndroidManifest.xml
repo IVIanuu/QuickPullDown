@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ivianuu.quickpulldown">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quick Pulldown"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <!-- Meta data -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="52" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Quick pulldown." />
+
+    </application>
+
+</manifest>
